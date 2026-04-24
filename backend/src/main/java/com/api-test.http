@@ -1,0 +1,14 @@
+### Crear un producto de prueba
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "sku": "LAP-001",
+  "name": "Laptop Gamer MSI",
+  "description": "Core i7, 16GB RAM, RTX 4060",
+  "price": 4500.00,
+  "stock": 10
+}
+
+### Listar todos los productos
+GET http://localhost:8080/api/products
